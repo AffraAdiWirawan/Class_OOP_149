@@ -26,4 +26,9 @@ public:
 		cout << " Masukkan SKS Mata Kuliah : ";
 		cin >> sks;
 	}
+	void tampil() {
+		cout << " Kode Mata Kuliah : " << kode;
+		cout << " Nama Mata Kuliah : " << namaM;
+		cout << " SKS : " << sks;
+	}
 };
