@@ -8,7 +8,7 @@ public:
 	string nama;
 public: void cetak() {
 	cout << " NIM = " << nim;
-	cout << "\nNama = " << nama;
+	cout << "\tNama = " << nama;
 }
 };
 
@@ -19,17 +19,17 @@ private:
 	int sks;
 public:
 	void input() {
-		cout << " Masukkan Kode Mata Kuliah : ";
+		cout << "\nMasukkan Kode Mata Kuliah : ";
 		cin >> kode;
-		cout << " Masukkan Nama Mata KUliah : ";
+		cout << "Masukkan Nama Mata KUliah : ";
 		cin >> namaM;
-		cout << " Masukkan SKS Mata Kuliah : ";
+		cout << "Masukkan SKS Mata Kuliah : ";
 		cin >> sks;
 	}
 	void tampil() {
-		cout << " Kode Mata Kuliah : " << kode;
-		cout << " Nama Mata Kuliah : " << namaM;
-		cout << " SKS : " << sks;
+		cout << "\nKode Mata Kuliah : " << kode;
+		cout << "\nNama Mata Kuliah : " << namaM;
+		cout << "\nSKS : " << sks;
 	}
 };
 
