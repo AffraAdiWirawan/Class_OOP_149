@@ -13,5 +13,5 @@ public: void cetak() {
 };
 
 class matakuliah {
-
+private:
 };
