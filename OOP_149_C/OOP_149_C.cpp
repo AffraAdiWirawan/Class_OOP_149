@@ -17,4 +17,5 @@ private:
 	string nim;
 	string nama;
 	int sks;
+public:
 };
