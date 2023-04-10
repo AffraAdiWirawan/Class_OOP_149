@@ -32,3 +32,16 @@ public:
 		cout << " SKS : " << sks;
 	}
 };
+
+int main() {
+	mahasiswa mhs1;
+	matakuliah mk;
+
+	cout << " Masukkan NIM : ";
+	cin >> mhs1.nim;
+	cout << " Masukkan nama : ";
+	cin >> mhs1.nama;
+	mhs1.cetak();
+	mk.input();
+	mk.tampil();
+}
